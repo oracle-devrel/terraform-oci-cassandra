@@ -45,7 +45,7 @@ variable "node_shape" {
 
 variable "cassandra_version" {
   description = "Version of Cassandra software"
-  default     = "3.11.11"
+  default     = "4.0.3"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
