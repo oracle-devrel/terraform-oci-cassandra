@@ -9,7 +9,7 @@ variable "ssh_private_key" {}
 
 variable "cassandra_version" {
   description = "Version of Cassandra software"
-  default     = "3.11.11"
+  default     = "4.0.3"
 }
 
 variable "instance_os" {
@@ -23,7 +23,7 @@ variable "linux_os_version" {
 }
 
 variable "node_shape" {
-  default = "VM.Standard.E3.Flex"
+  default = "VM.Standard.E4.Flex"
 }
 
 variable "node_flex_shape_ocpus" {
